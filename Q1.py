@@ -1,5 +1,3 @@
-import math
-
 t_val = 1 / 3
 
 r_val = round(t_val, 2)
