@@ -56,10 +56,9 @@ def simpsons_3_8(a, b, n):
 # Example usage
 a = 0
 b = 1
-n = 10  # Adjust n as needed
 
-result_1_3 = simpsons_1_3(a, b, n)
-result_3_8 = simpsons_3_8(a, b, n)
+result_1_3 = simpsons_1_3(a, b, 10)
+result_3_8 = simpsons_3_8(a, b, 9)
 
 print(f"Simpson's 1/3 rule: {result_1_3}")
 print(f"Simpson's 3/8 rule: {result_3_8}")
